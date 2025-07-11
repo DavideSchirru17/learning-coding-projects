@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>pokemon api</h1>
+    <div class="card">
+      <img id="sprites" src="" alt="sprites" width="200px" height="200px" />
+      <p id="name"></p>
+      <p id="id"></p>
+      <p id="move"></p>
+    </div>
+
+    <button onclick="getPokemon()">Get Pokemon</button>
+    <div class="card-loop">
+      <img
+        id="sprites-loop"
+        src=""
+        alt="sprites"
+        width="300px"
+        height="300px"
+      />
+      <p id="name-loop"></p>
+      <p id="id-loop"></p>
+    </div>
+
+    <button onclick="getLoopPokemon()">Get Loop Pokemons</button>
+  </body>
+</html>

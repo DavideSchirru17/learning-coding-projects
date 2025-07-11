@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>International Space Station Current Location</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- ROAD -->
+      <section class="station-road">
+        <img
+          class="station"
+          src="/img/i-space-station.jpg"
+          alt="international space station"
+        />
+
+        <section class="cirle">
+          <!-- CARD -->
+          <div class="card">
+            <div class="box">
+              <label for="time">Time: </label>
+              <p class="text" id="time">timestamp</p>
+            </div>
+            <div class="box-l-l">
+              <div class="box">
+                <label for="Latitude">Latitude: </label>
+                <p class="text" id="latitude">latitude</p>
+              </div>
+              <div class="box">
+                <label for="Longitude">Longitude: </label>
+                <p class="text" id="longitude">longitude</p>
+              </div>
+              <div class="box">
+                <label for="message">Message: </label>
+                <p class="text" id="message">message</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="getData()" id="button">Click me</button>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>

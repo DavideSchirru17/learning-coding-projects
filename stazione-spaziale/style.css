@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/img/universe.webp");
+}
+.station-road {
+  border: solid green;
+  border-radius: 50%;
+  padding: 5rem;
+  display: flex;
+  position: relative;
+}
+.station {
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+}
+.card {
+  border: solid;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.505);
+}
+.box {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cirle {
+  background-image: url("/img/earth.jpeg");
+  background-position: center;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid red;
+  padding: 10rem;
+  border-radius: 50%;
+}
+.text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#button {
+  background-color: antiquewhite;
+  padding: 10px 2rem;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: ease 1s;
+}
+#button:hover {
+  background-color: rgb(202, 127, 30);
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>text to video</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>text to video</h1>
+    <div class="container">
+      <label for="description">Promt the text here: </label>
+      <textarea
+        name="description"
+        id="description"
+        rows="6"
+        placeholder="write a text here: "
+      ></textarea>
+
+      <button id="button" onclick="createTextToVideo()">Generate Video</button>
+      <pre id="result-box"></pre>
+    </div>
+  </body>
+</html>
